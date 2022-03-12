@@ -1,0 +1,177 @@
+/*  Custom properties and variables */
+:root {
+  --main-white: #f3f3f3;
+  --main-blue: #455e7d;
+  --main-red: #be3114;
+  --main-gray: #303841;
+} 
+
+/* Base Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} 
+
+html {
+  scroll-behavior: smooth;
+} 
+
+/* Style Body */
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1.2;
+  color: var(--main-white);
+  background-color: #1b1b32;
+} 
+
+h1, 
+p {
+  font-family: inherit;
+  text-align: center;
+  font-weight: 700;
+} 
+
+h1 {
+  font-size: 2rem;
+} 
+
+ul {
+  list-style: none;
+} 
+
+a {
+  color: var(--main-white);
+  text-decoration: none;
+} 
+
+#nav {
+  display: flex;
+  justify-content: flex-end;
+  position: fixed;
+  background-color: var(--main-red);
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 10;
+} 
+
+.nav-list {
+  display: flex;
+  margin-right: 2rem;
+} 
+
+.nav-list a {
+  display: block;
+  font-size: 1.2rem;
+  padding: 1rem
+} 
+
+.info {
+  margin: 100px 0;
+  border: 2px solid #337;
+  width: 100%;
+  border-radius: 20px;
+  line-height: 1.4;
+} 
+
+.info p {
+  font-style: italic;
+  color: var(--main-red);
+} 
+.images {
+  text-align: center;
+} 
+
+.images img {
+  text-align: center;
+  width: 150px;
+} 
+
+.skillset {
+  font-size: 1rem;
+  margin-left: 20px;
+  line-height: 1.5;
+} 
+
+.skillset p {
+  background-color: var(--main-red);
+  padding: 10px;
+} 
+
+h1 {
+  font-size: 4rem
+} 
+
+h2 {
+  font-size: 2rem;
+  margin: -50px 10px;
+  text-align: center;
+} 
+
+hr {
+  margin-top: 60px;
+  border: var(--main-red);
+} 
+
+footer{
+  margin-top: 100px;
+  font-size: 1rem;
+  text-align: center;
+} 
+
+.projects-grid {
+  margin-top: 100px;
+} 
+
+.contact {
+  display: flex;
+  justify-content:center;
+  width: 70%;
+  flex-wrap: wrap;
+  margin-top: 4rem;
+  align-items: center;
+  text-align: center;
+  line-height: 1.5;
+}
+
+.social-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  margin: 20px;
+} 
+
+#about {
+  background: #1b1b31;
+} 
+
+.about-text{
+  margin: 20px 20px;
+  font-size :17px;
+  line-height: 1.5;
+} 
+  
+@media (min-width: 992px) {
+  #nav > li {
+    justify-content: center;
+
+  } 
+  
+ .navbar ul li a{
+   font-size: 45px
+  } 
+  
+  .social-links {
+    justify-content: center;
+    padding: 10px;
+    margin: 15px;
+    
+  } 
+  .contact-details {
+    padding: 5px;
+  } 
+} 
